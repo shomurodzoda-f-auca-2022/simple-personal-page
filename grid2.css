@@ -19,7 +19,7 @@ body {
 
     grid-template-rows:
         minmax(150px, 250px)
-        minmax(50px, 75px)
+        minmax(auto, 75px)
         minmax(300px, 710px)
         minmax(200px, 392px);
 
@@ -96,8 +96,8 @@ ul  {
 }
 
 .spec-project {
-    flex-basis: 415px;
-    padding-left: 299px;
+    flex-basis: 183px;
+    padding-left: 67px;
 }
 
 .call-center {
@@ -110,4 +110,38 @@ ul  {
 
 .history {
     flex-basis: 20px;
+}
+
+.news-btn {
+    background-color: green;
+    border: none;
+
+    width: 232px;
+    height: 35px;
+
+    border-radius: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-items: center;
+
+    margin-left: 69px;
+    align-self: center;
+}
+
+.news-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+}
+
+
+.news-btn:hover {
+    background-color: #b7d3a9;
 }
